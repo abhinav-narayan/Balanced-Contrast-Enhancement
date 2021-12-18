@@ -27,17 +27,6 @@ def blct(img):
     y = np.uint8(y)
     return y
 
-
-# def LCE(img):
-#     a = 1
-#     b = 5
-#     F = (a * np.double(img[:,:])) + b
-#     F = np.uint8(F)
-#     H = cv2.equalizeHist(F)
-#     return H
-
-#Test BLCT and LCE
-
 input_image = cv2.imread('C:/Users/Abhi/Downloads/1.jpg')
 img_hsv = cv2.cvtColor(input_image,cv2.COLOR_BGR2HSV)
 
