@@ -1,25 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Nov 12 14:23:49 2021
-
-Balanced Contrast enhancement technique (blct function)
-
-l => Minimum value of the input image
-h => Maximum value of the input image
-e => Mean value of the input image
-L => Minimum value of the output image
-H => Maximum value of the output image
-E => Mean value of the output image assume to be 110 or any number
-s => Mean square sum of the output image
-
-Linear Contrast enhancement Algorithm (LCE)
-F => Output Image
-a => Contrast
-b => Brightness
-H => Histogram output
-
-@author: AbhinavNarayan
-
+Balanced Contrast Enhancement Algorithm
 """
 
 import cv2
